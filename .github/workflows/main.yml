@@ -41,5 +41,5 @@ jobs:
       run: npm install -g surge
   
     - name: deploying on surge
-      run: surge ./build http://shopping-cart-bootcamp-p3.surge.sh/ --token ${{ secrets.surge_secret}}
+      run: surge ./build shopping-cart-bootcamp-p3.surge.sh/ --token ${{ secrets.surge_secret}}
 
