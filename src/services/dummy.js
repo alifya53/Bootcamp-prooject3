@@ -1,20 +1,20 @@
 export const dummyProducts = [
   {
     id: 1,
-    name: "Buffalo - Striploin",
-    price: 39.11,
+    name: "IPhone - 5S",
+    price: 223.00,
     photo: "/img/1.jpg",
   },
   {
     id: 2,
-    name: "Bacardi Breezer - Tropical",
-    price: 257.92,
+    name: "Iphone - 6S Plus",
+    price: 484.12,
     photo: "/img/2.jpg"
   },
   {
     id: 3,
-    name: "Wine - Gato Negro Cabernet",
-    price: 51.01,
+    name: "Iphone - 7S",
+    price: 547.01,
     photo: "/img/3.jpg"
   },
   {
