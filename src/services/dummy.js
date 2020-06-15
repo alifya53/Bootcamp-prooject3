@@ -8,7 +8,7 @@ export const dummyProducts = [
   {
     id: 2,
     name: "Iphone - 6S Plus",
-    price: 484.12,
+    price: 484.2,
     photo: "/img/2.jpg"
   },
   {

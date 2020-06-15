@@ -9,7 +9,7 @@ import CartContextProvider from './contexts/CartContext';
 
 ReactDOM.render(
     <HelmetProvider>
-      <h1> Bootcamp Project3 Shopping Cart Application</h1> 
+      <h1 style={{textAlign: "center"}}> Bootcamp Project3 Shopping Cart Application</h1> 
       <ProductsContextProvider>
         <CartContextProvider>
           <Routes />
