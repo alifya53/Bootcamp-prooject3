@@ -36,8 +36,8 @@ jobs:
  
      
      
-    - name: rebuild saas 
-      run: npm rebuild node-sass
+    - name: install saas 
+      run: npm install -g node-sass
        
     -  name: creating build
        run: yarn build
