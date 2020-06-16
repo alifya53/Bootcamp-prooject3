@@ -32,7 +32,13 @@ jobs:
       with:
            # Yarn command
        cmd: install 
+         
+ 
      
+     
+    - name: rebuild saas 
+      run: npm rebuild node-sass
+       
     -  name: creating build
        run: yarn build
      
